@@ -15,6 +15,6 @@ class Movies(MethodView):
             # Return a list of all movies
             return jsonify({"movies": [dict({"title": movie["title"]}, **{"id": i}) for i, movie in movies.items()]})
         else:
-            #test trigger
+            # test trigger  2
             # Return the details of a specific movie
             return jsonify({"movie": movies[str(movie_id)]})
