@@ -16,6 +16,9 @@ export default function App() {
 
       <MovieList onMovieClick={handleMovieClick} />
 
+
+
+
       {selectedMovie && (
         <>
           <h1>Movie Details</h1>
