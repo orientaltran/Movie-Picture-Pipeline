@@ -73,7 +73,7 @@ jobs:
       
       - name: Kubeconfig Auth
         run: |
-          aws eks update-kubeconfig --name cluster --region us-east-1
+          aws eks update-kubeconfig --name ops-prj4 --region us-east-1
 
       - name: Deploy to Kubernetes
         run: |
